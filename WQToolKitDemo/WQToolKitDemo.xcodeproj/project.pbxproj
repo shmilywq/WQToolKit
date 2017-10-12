@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46C2CD111F8F7082002300E9 /* UIButton+WQCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C2CD101F8F7082002300E9 /* UIButton+WQCustom.m */; };
+		46C2CD141F8F7120002300E9 /* UIImage+WQTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C2CD131F8F7120002300E9 /* UIImage+WQTool.m */; };
 		46F048871F790A2500165641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F048861F790A2500165641 /* main.m */; };
 		46F0488A1F790A2500165641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F048891F790A2500165641 /* AppDelegate.m */; };
 		46F0488D1F790A2500165641 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F0488C1F790A2500165641 /* ViewController.m */; };
@@ -40,6 +42,10 @@
 
 /* Begin PBXFileReference section */
 		276D7B68C06F5D84242757E6 /* Pods-WQToolKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQToolKitDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQToolKitDemoUITests/Pods-WQToolKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46C2CD0F1F8F7082002300E9 /* UIButton+WQCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WQCustom.h"; sourceTree = "<group>"; };
+		46C2CD101F8F7082002300E9 /* UIButton+WQCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WQCustom.m"; sourceTree = "<group>"; };
+		46C2CD121F8F7120002300E9 /* UIImage+WQTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WQTool.h"; sourceTree = "<group>"; };
+		46C2CD131F8F7120002300E9 /* UIImage+WQTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WQTool.m"; sourceTree = "<group>"; };
 		46F048821F790A2500165641 /* WQToolKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQToolKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F048861F790A2500165641 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46F048881F790A2500165641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -187,6 +193,10 @@
 		46F048B91F790B5000165641 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				46C2CD0F1F8F7082002300E9 /* UIButton+WQCustom.h */,
+				46C2CD101F8F7082002300E9 /* UIButton+WQCustom.m */,
+				46C2CD121F8F7120002300E9 /* UIImage+WQTool.h */,
+				46C2CD131F8F7120002300E9 /* UIImage+WQTool.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -281,7 +291,7 @@
 		46F0487A1F790A2500165641 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = shmily;
 				TargetAttributes = {
 					46F048811F790A2500165641 = {
@@ -494,6 +504,8 @@
 				46F0488D1F790A2500165641 /* ViewController.m in Sources */,
 				46F0488A1F790A2500165641 /* AppDelegate.m in Sources */,
 				46F048871F790A2500165641 /* main.m in Sources */,
+				46C2CD141F8F7120002300E9 /* UIImage+WQTool.m in Sources */,
+				46C2CD111F8F7082002300E9 /* UIButton+WQCustom.m in Sources */,
 				46F048BD1F790B8A00165641 /* WQSingleImgPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,7 +571,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -567,7 +581,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -608,7 +626,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -616,7 +636,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
