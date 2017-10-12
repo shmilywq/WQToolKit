@@ -1,0 +1,15 @@
+PODS:
+  - WQAlert (0.0.2):
+    - WQViewFrame (~> 0.0.2)
+  - WQViewFrame (0.0.2)
+
+DEPENDENCIES:
+  - WQAlert (~> 0.0.2)
+
+SPEC CHECKSUMS:
+  WQAlert: e945acaa6029709ba5e83dc7ab253e72cc2946fa
+  WQViewFrame: fe26a2f21b72180723e18adcfe2f87fa0c062b68
+
+PODFILE CHECKSUM: 8ef842509fbd730a3d59f1765ddaf4e18b2e4d79
+
+COCOAPODS: 1.2.1

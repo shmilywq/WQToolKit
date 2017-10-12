@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WQSingleImgPicker.h"
 
 @interface ViewController ()
 
@@ -18,7 +19,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+#pragma mark - Action
 
+- (IBAction)clickCameraAction:(id)sender {
+    WQSingleImgPicker *imgPicker = [[WQSingleImgPicker alloc] init];
+    [imgPicker selectPhotoWithFromController:self sourceType:(UIImagePickerControllerSourceTypeCamera) allowEdit:NO selected:^(UIImage *image) {
+        
+    } cancel:^{
+        
+    }];
+}
+- (IBAction)clickPhotoAlbumAction:(id)sender {
+    WQSingleImgPicker *imgPicker = [[WQSingleImgPicker alloc] init];
+    [imgPicker selectPhotoWithFromController:self sourceType:(UIImagePickerControllerSourceTypeSavedPhotosAlbum) allowEdit:NO selected:^(UIImage *image) {
+        
+    } cancel:^{
+        
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

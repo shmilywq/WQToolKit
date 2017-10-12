@@ -15,6 +15,10 @@
 		46F048951F790A2500165641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F048931F790A2500165641 /* LaunchScreen.storyboard */; };
 		46F048A01F790A2600165641 /* WQToolKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F0489F1F790A2600165641 /* WQToolKitDemoTests.m */; };
 		46F048AB1F790A2600165641 /* WQToolKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F048AA1F790A2600165641 /* WQToolKitDemoUITests.m */; };
+		46F048BD1F790B8A00165641 /* WQSingleImgPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F048BC1F790B8A00165641 /* WQSingleImgPicker.m */; };
+		89E2BFE2D5FB72EFD3C955B3 /* libPods-WQToolKitDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD35436A2CE22DDBF889B5 /* libPods-WQToolKitDemoTests.a */; };
+		C737B4A5420B67D23AFE172C /* libPods-WQToolKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E15045C65022E83AB919E28D /* libPods-WQToolKitDemo.a */; };
+		E3CB9EE07CF50FF6C0050C3B /* libPods-WQToolKitDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2200D0669A35AB04254E94 /* libPods-WQToolKitDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		276D7B68C06F5D84242757E6 /* Pods-WQToolKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQToolKitDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQToolKitDemoUITests/Pods-WQToolKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		46F048821F790A2500165641 /* WQToolKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQToolKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F048861F790A2500165641 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46F048881F790A2500165641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		46F048A61F790A2600165641 /* WQToolKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQToolKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F048AA1F790A2600165641 /* WQToolKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQToolKitDemoUITests.m; sourceTree = "<group>"; };
 		46F048AC1F790A2600165641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F048BB1F790B8A00165641 /* WQSingleImgPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQSingleImgPicker.h; sourceTree = "<group>"; };
+		46F048BC1F790B8A00165641 /* WQSingleImgPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQSingleImgPicker.m; sourceTree = "<group>"; };
+		63AD35436A2CE22DDBF889B5 /* libPods-WQToolKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WQToolKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94683D4E85B7FB638D31FCB7 /* Pods-WQToolKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQToolKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQToolKitDemo/Pods-WQToolKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B731B08F86B72E64E4EB35EF /* Pods-WQToolKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQToolKitDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQToolKitDemoTests/Pods-WQToolKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7FAE6A7B47126D8671079E2 /* Pods-WQToolKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQToolKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQToolKitDemo/Pods-WQToolKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E15045C65022E83AB919E28D /* libPods-WQToolKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WQToolKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E768D658BC98798E24C9EA66 /* Pods-WQToolKitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQToolKitDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WQToolKitDemoUITests/Pods-WQToolKitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD2200D0669A35AB04254E94 /* libPods-WQToolKitDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WQToolKitDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8803186CB5D30758425A83 /* Pods-WQToolKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQToolKitDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQToolKitDemoTests/Pods-WQToolKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C737B4A5420B67D23AFE172C /* libPods-WQToolKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E2BFE2D5FB72EFD3C955B3 /* libPods-WQToolKitDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CB9EE07CF50FF6C0050C3B /* libPods-WQToolKitDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ADB90C847EF04FC86F943E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94683D4E85B7FB638D31FCB7 /* Pods-WQToolKitDemo.debug.xcconfig */,
+				D7FAE6A7B47126D8671079E2 /* Pods-WQToolKitDemo.release.xcconfig */,
+				B731B08F86B72E64E4EB35EF /* Pods-WQToolKitDemoTests.debug.xcconfig */,
+				FE8803186CB5D30758425A83 /* Pods-WQToolKitDemoTests.release.xcconfig */,
+				E768D658BC98798E24C9EA66 /* Pods-WQToolKitDemoUITests.debug.xcconfig */,
+				276D7B68C06F5D84242757E6 /* Pods-WQToolKitDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		46F048791F790A2500165641 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				46F0489E1F790A2600165641 /* WQToolKitDemoTests */,
 				46F048A91F790A2600165641 /* WQToolKitDemoUITests */,
 				46F048831F790A2500165641 /* Products */,
+				1ADB90C847EF04FC86F943E3 /* Pods */,
+				D749CD7DD9E97C34C6144FA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +134,7 @@
 		46F048841F790A2500165641 /* WQToolKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				46F048B81F790A7200165641 /* SourceCode */,
 				46F048881F790A2500165641 /* AppDelegate.h */,
 				46F048891F790A2500165641 /* AppDelegate.m */,
 				46F0488B1F790A2500165641 /* ViewController.h */,
@@ -140,6 +174,42 @@
 			path = WQToolKitDemoUITests;
 			sourceTree = "<group>";
 		};
+		46F048B81F790A7200165641 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				46F048B91F790B5000165641 /* Category */,
+				46F048BA1F790B5000165641 /* ImgPicker */,
+			);
+			name = SourceCode;
+			path = ../../SourceCode;
+			sourceTree = "<group>";
+		};
+		46F048B91F790B5000165641 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		46F048BA1F790B5000165641 /* ImgPicker */ = {
+			isa = PBXGroup;
+			children = (
+				46F048BB1F790B8A00165641 /* WQSingleImgPicker.h */,
+				46F048BC1F790B8A00165641 /* WQSingleImgPicker.m */,
+			);
+			path = ImgPicker;
+			sourceTree = "<group>";
+		};
+		D749CD7DD9E97C34C6144FA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E15045C65022E83AB919E28D /* libPods-WQToolKitDemo.a */,
+				63AD35436A2CE22DDBF889B5 /* libPods-WQToolKitDemoTests.a */,
+				FD2200D0669A35AB04254E94 /* libPods-WQToolKitDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46F048AF1F790A2600165641 /* Build configuration list for PBXNativeTarget "WQToolKitDemo" */;
 			buildPhases = (
+				5A881494B61880E97B1F4DF8 /* [CP] Check Pods Manifest.lock */,
 				46F0487E1F790A2500165641 /* Sources */,
 				46F0487F1F790A2500165641 /* Frameworks */,
 				46F048801F790A2500165641 /* Resources */,
+				37F73D90AD8069769F3CF2F7 /* [CP] Embed Pods Frameworks */,
+				20D4983C8917E39D83888872 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46F048B21F790A2600165641 /* Build configuration list for PBXNativeTarget "WQToolKitDemoTests" */;
 			buildPhases = (
+				3167CAA4DEDD19E99F72A7ED /* [CP] Check Pods Manifest.lock */,
 				46F048971F790A2500165641 /* Sources */,
 				46F048981F790A2500165641 /* Frameworks */,
 				46F048991F790A2500165641 /* Resources */,
+				58748D9C7266AAB58CC41149 /* [CP] Embed Pods Frameworks */,
+				972A9B676346550F104A6B4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46F048B51F790A2600165641 /* Build configuration list for PBXNativeTarget "WQToolKitDemoUITests" */;
 			buildPhases = (
+				B3400868A3601B8DBFAEA1E4 /* [CP] Check Pods Manifest.lock */,
 				46F048A21F790A2600165641 /* Sources */,
 				46F048A31F790A2600165641 /* Frameworks */,
 				46F048A41F790A2600165641 /* Resources */,
+				4B830204BEC638D781463A21 /* [CP] Embed Pods Frameworks */,
+				B9033F3E77AA99583B181EB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +286,7 @@
 				TargetAttributes = {
 					46F048811F790A2500165641 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8E4UXBJ6TS;
 						ProvisioningStyle = Automatic;
 					};
 					46F0489A1F790A2500165641 = {
@@ -268,6 +348,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20D4983C8917E39D83888872 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQToolKitDemo/Pods-WQToolKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3167CAA4DEDD19E99F72A7ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37F73D90AD8069769F3CF2F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQToolKitDemo/Pods-WQToolKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B830204BEC638D781463A21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQToolKitDemoUITests/Pods-WQToolKitDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58748D9C7266AAB58CC41149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQToolKitDemoTests/Pods-WQToolKitDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A881494B61880E97B1F4DF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		972A9B676346550F104A6B4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQToolKitDemoTests/Pods-WQToolKitDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3400868A3601B8DBFAEA1E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9033F3E77AA99583B181EB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WQToolKitDemoUITests/Pods-WQToolKitDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46F0487E1F790A2500165641 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +494,7 @@
 				46F0488D1F790A2500165641 /* ViewController.m in Sources */,
 				46F0488A1F790A2500165641 /* AppDelegate.m in Sources */,
 				46F048871F790A2500165641 /* main.m in Sources */,
+				46F048BD1F790B8A00165641 /* WQSingleImgPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +643,12 @@
 		};
 		46F048B01F790A2600165641 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94683D4E85B7FB638D31FCB7 /* Pods-WQToolKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8E4UXBJ6TS;
 				INFOPLIST_FILE = WQToolKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shmilywq.WQToolKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +657,12 @@
 		};
 		46F048B11F790A2600165641 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7FAE6A7B47126D8671079E2 /* Pods-WQToolKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8E4UXBJ6TS;
 				INFOPLIST_FILE = WQToolKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shmilywq.WQToolKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +671,7 @@
 		};
 		46F048B31F790A2600165641 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B731B08F86B72E64E4EB35EF /* Pods-WQToolKitDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WQToolKitDemoTests/Info.plist;
@@ -458,6 +684,7 @@
 		};
 		46F048B41F790A2600165641 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8803186CB5D30758425A83 /* Pods-WQToolKitDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WQToolKitDemoTests/Info.plist;
@@ -470,6 +697,7 @@
 		};
 		46F048B61F790A2600165641 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E768D658BC98798E24C9EA66 /* Pods-WQToolKitDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WQToolKitDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +709,7 @@
 		};
 		46F048B71F790A2600165641 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276D7B68C06F5D84242757E6 /* Pods-WQToolKitDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WQToolKitDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +738,7 @@
 				46F048B11F790A2600165641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F048B21F790A2600165641 /* Build configuration list for PBXNativeTarget "WQToolKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +747,7 @@
 				46F048B41F790A2600165641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F048B51F790A2600165641 /* Build configuration list for PBXNativeTarget "WQToolKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +756,7 @@
 				46F048B71F790A2600165641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
