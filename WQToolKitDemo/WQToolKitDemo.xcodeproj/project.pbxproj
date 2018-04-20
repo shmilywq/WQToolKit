@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4625E381208992370041F620 /* NSString+WQTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625E377208992360041F620 /* NSString+WQTool.m */; };
+		4625E382208992370041F620 /* NSDate+WQTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625E378208992360041F620 /* NSDate+WQTool.m */; };
+		4625E383208992370041F620 /* UITextField+WQPlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625E37D208992370041F620 /* UITextField+WQPlaceholderColor.m */; };
+		4625E384208992370041F620 /* UIColor+WQHexTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625E37F208992370041F620 /* UIColor+WQHexTool.m */; };
+		4625E387208A0F250041F620 /* UIView+WQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625E385208A0F250041F620 /* UIView+WQFrame.m */; };
+		4625E391208A0F340041F620 /* WQCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625E388208A0F330041F620 /* WQCustomAlertView.m */; };
+		4625E392208A0F340041F620 /* WQAlertActionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625E389208A0F330041F620 /* WQAlertActionModel.m */; };
+		4625E393208A0F340041F620 /* WQAlertActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625E38A208A0F330041F620 /* WQAlertActionCell.m */; };
+		4625E394208A0F340041F620 /* WQCustomToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4625E390208A0F340041F620 /* WQCustomToastView.m */; };
 		46C2CD111F8F7082002300E9 /* UIButton+WQCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C2CD101F8F7082002300E9 /* UIButton+WQCustom.m */; };
 		46C2CD141F8F7120002300E9 /* UIImage+WQTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C2CD131F8F7120002300E9 /* UIImage+WQTool.m */; };
 		46F048871F790A2500165641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F048861F790A2500165641 /* main.m */; };
@@ -42,6 +51,27 @@
 
 /* Begin PBXFileReference section */
 		276D7B68C06F5D84242757E6 /* Pods-WQToolKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WQToolKitDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WQToolKitDemoUITests/Pods-WQToolKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4625E377208992360041F620 /* NSString+WQTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WQTool.m"; sourceTree = "<group>"; };
+		4625E378208992360041F620 /* NSDate+WQTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQTool.m"; sourceTree = "<group>"; };
+		4625E379208992360041F620 /* UIColor+WQHexTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WQHexTool.h"; sourceTree = "<group>"; };
+		4625E37A208992360041F620 /* NSString+WQTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WQTool.h"; sourceTree = "<group>"; };
+		4625E37B208992370041F620 /* UITextField+WQPlaceholderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+WQPlaceholderColor.h"; sourceTree = "<group>"; };
+		4625E37D208992370041F620 /* UITextField+WQPlaceholderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WQPlaceholderColor.m"; sourceTree = "<group>"; };
+		4625E37E208992370041F620 /* NSDate+WQTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQTool.h"; sourceTree = "<group>"; };
+		4625E37F208992370041F620 /* UIColor+WQHexTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WQHexTool.m"; sourceTree = "<group>"; };
+		4625E385208A0F250041F620 /* UIView+WQFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WQFrame.m"; sourceTree = "<group>"; };
+		4625E386208A0F250041F620 /* UIView+WQFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WQFrame.h"; sourceTree = "<group>"; };
+		4625E388208A0F330041F620 /* WQCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQCustomAlertView.m; sourceTree = "<group>"; };
+		4625E389208A0F330041F620 /* WQAlertActionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQAlertActionModel.m; sourceTree = "<group>"; };
+		4625E38A208A0F330041F620 /* WQAlertActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQAlertActionCell.m; sourceTree = "<group>"; };
+		4625E38B208A0F340041F620 /* WQCustomToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQCustomToastView.h; sourceTree = "<group>"; };
+		4625E38C208A0F340041F620 /* WQAlertActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQAlertActionCell.h; sourceTree = "<group>"; };
+		4625E38D208A0F340041F620 /* WQAlertActionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQAlertActionModel.h; sourceTree = "<group>"; };
+		4625E38E208A0F340041F620 /* WQCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQCustomAlertView.h; sourceTree = "<group>"; };
+		4625E38F208A0F340041F620 /* WQAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQAlert.h; sourceTree = "<group>"; };
+		4625E390208A0F340041F620 /* WQCustomToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQCustomToastView.m; sourceTree = "<group>"; };
+		4625E396208A10AB0041F620 /* WQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQCategory.h; sourceTree = "<group>"; };
+		4625E397208A12FA0041F620 /* WQToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQToolKit.h; sourceTree = "<group>"; };
 		46C2CD0F1F8F7082002300E9 /* UIButton+WQCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WQCustom.h"; sourceTree = "<group>"; };
 		46C2CD101F8F7082002300E9 /* UIButton+WQCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WQCustom.m"; sourceTree = "<group>"; };
 		46C2CD121F8F7120002300E9 /* UIImage+WQTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WQTool.h"; sourceTree = "<group>"; };
@@ -115,6 +145,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4625E395208A0F520041F620 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				4625E38F208A0F340041F620 /* WQAlert.h */,
+				4625E38C208A0F340041F620 /* WQAlertActionCell.h */,
+				4625E38A208A0F330041F620 /* WQAlertActionCell.m */,
+				4625E38D208A0F340041F620 /* WQAlertActionModel.h */,
+				4625E389208A0F330041F620 /* WQAlertActionModel.m */,
+				4625E38E208A0F340041F620 /* WQCustomAlertView.h */,
+				4625E388208A0F330041F620 /* WQCustomAlertView.m */,
+				4625E38B208A0F340041F620 /* WQCustomToastView.h */,
+				4625E390208A0F340041F620 /* WQCustomToastView.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		46F048791F790A2500165641 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +229,8 @@
 		46F048B81F790A7200165641 /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				4625E397208A12FA0041F620 /* WQToolKit.h */,
+				4625E395208A0F520041F620 /* Alert */,
 				46F048B91F790B5000165641 /* Category */,
 				46F048BA1F790B5000165641 /* ImgPicker */,
 			);
@@ -193,10 +241,21 @@
 		46F048B91F790B5000165641 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				4625E396208A10AB0041F620 /* WQCategory.h */,
 				46C2CD0F1F8F7082002300E9 /* UIButton+WQCustom.h */,
 				46C2CD101F8F7082002300E9 /* UIButton+WQCustom.m */,
 				46C2CD121F8F7120002300E9 /* UIImage+WQTool.h */,
 				46C2CD131F8F7120002300E9 /* UIImage+WQTool.m */,
+				4625E37E208992370041F620 /* NSDate+WQTool.h */,
+				4625E378208992360041F620 /* NSDate+WQTool.m */,
+				4625E37A208992360041F620 /* NSString+WQTool.h */,
+				4625E377208992360041F620 /* NSString+WQTool.m */,
+				4625E379208992360041F620 /* UIColor+WQHexTool.h */,
+				4625E37F208992370041F620 /* UIColor+WQHexTool.m */,
+				4625E37B208992370041F620 /* UITextField+WQPlaceholderColor.h */,
+				4625E37D208992370041F620 /* UITextField+WQPlaceholderColor.m */,
+				4625E386208A0F250041F620 /* UIView+WQFrame.h */,
+				4625E385208A0F250041F620 /* UIView+WQFrame.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -380,13 +439,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WQToolKitDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		37F73D90AD8069769F3CF2F7 /* [CP] Embed Pods Frameworks */ = {
@@ -440,13 +502,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WQToolKitDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		972A9B676346550F104A6B4A /* [CP] Copy Pods Resources */ = {
@@ -470,13 +535,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WQToolKitDemoUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B9033F3E77AA99583B181EB0 /* [CP] Copy Pods Resources */ = {
@@ -505,8 +573,17 @@
 				46F0488A1F790A2500165641 /* AppDelegate.m in Sources */,
 				46F048871F790A2500165641 /* main.m in Sources */,
 				46C2CD141F8F7120002300E9 /* UIImage+WQTool.m in Sources */,
+				4625E381208992370041F620 /* NSString+WQTool.m in Sources */,
 				46C2CD111F8F7082002300E9 /* UIButton+WQCustom.m in Sources */,
+				4625E382208992370041F620 /* NSDate+WQTool.m in Sources */,
+				4625E392208A0F340041F620 /* WQAlertActionModel.m in Sources */,
+				4625E393208A0F340041F620 /* WQAlertActionCell.m in Sources */,
+				4625E384208992370041F620 /* UIColor+WQHexTool.m in Sources */,
+				4625E394208A0F340041F620 /* WQCustomToastView.m in Sources */,
+				4625E391208A0F340041F620 /* WQCustomAlertView.m in Sources */,
+				4625E387208A0F250041F620 /* UIView+WQFrame.m in Sources */,
 				46F048BD1F790B8A00165641 /* WQSingleImgPicker.m in Sources */,
+				4625E383208992370041F620 /* UITextField+WQPlaceholderColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

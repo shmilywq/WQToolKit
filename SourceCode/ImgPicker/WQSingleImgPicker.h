@@ -19,7 +19,7 @@ typedef void(^WQPhotoSelectedBlock)(UIImage *image);
 /**
  *  取消选择的回调
  */
-typedef void(^WQPhotoCancelBlock)();
+typedef void(^WQPhotoCancelBlock)(void);
 
 /**
  * 没有相机权限的提醒文字,default:@"此应用程序没有权限访问您的相机，您可以点击“设置”启用访问相机权限"

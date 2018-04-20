@@ -9,7 +9,7 @@
 #import "WQSingleImgPicker.h"
 #import <AVFoundation/AVFoundation.h>
 #import <AssetsLibrary/AssetsLibrary.h>
-#import <WQAlert/WQAlert.h>
+#import "WQAlert.h"
 
 @interface WQSingleImgPicker () <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
