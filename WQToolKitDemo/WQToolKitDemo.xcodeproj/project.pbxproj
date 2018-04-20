@@ -72,6 +72,7 @@
 		4625E390208A0F340041F620 /* WQCustomToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQCustomToastView.m; sourceTree = "<group>"; };
 		4625E396208A10AB0041F620 /* WQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQCategory.h; sourceTree = "<group>"; };
 		4625E397208A12FA0041F620 /* WQToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQToolKit.h; sourceTree = "<group>"; };
+		4625E398208A1E430041F620 /* libapple_crypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libapple_crypto.tbd; path = usr/lib/libapple_crypto.tbd; sourceTree = SDKROOT; };
 		46C2CD0F1F8F7082002300E9 /* UIButton+WQCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WQCustom.h"; sourceTree = "<group>"; };
 		46C2CD101F8F7082002300E9 /* UIButton+WQCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WQCustom.m"; sourceTree = "<group>"; };
 		46C2CD121F8F7120002300E9 /* UIImage+WQTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WQTool.h"; sourceTree = "<group>"; };
@@ -272,6 +273,7 @@
 		D749CD7DD9E97C34C6144FA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4625E398208A1E430041F620 /* libapple_crypto.tbd */,
 				E15045C65022E83AB919E28D /* libPods-WQToolKitDemo.a */,
 				63AD35436A2CE22DDBF889B5 /* libPods-WQToolKitDemoTests.a */,
 				FD2200D0669A35AB04254E94 /* libPods-WQToolKitDemoUITests.a */,

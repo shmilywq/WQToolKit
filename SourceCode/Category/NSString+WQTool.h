@@ -34,13 +34,6 @@
 + (NSString *)noNullWithStr:(NSString *)string;
 
 /**
- MD5转换
-
- @return 转换后的结果
- */
-- (NSString *)md5HexDigest;
-
-/**
  JSONString转换成字典
  
  @param JSONString JOSN字符串

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "WQSingleImgPicker.h"
+#import "WQToolKit.h"
 
 @interface ViewController ()
 
