@@ -7,6 +7,7 @@
 //
 
 #import "UIImage+WQTool.h"
+#import "UIView+WQFrame.h"
 
 @implementation UIImage (WQTool)
 
@@ -62,6 +63,39 @@
         UIGraphicsEndImageContext();
     }
     return newimage;
+}
+- (UIImage *)compressedImageWithQualityRatio:(CGFloat)qualityRatio
+{
+    // 压缩质量
+    NSData *imgData = UIImageJPEGRepresentation(self, qualityRatio);
+    UIImage *newImg = [UIImage imageWithData:imgData];
+    
+    // 压缩大小
+    CGFloat compressFraction = 1.f;
+    CGSize imageSize = newImg.size;
+    CGFloat newWidth;
+    CGFloat newHeight;
+    CGFloat scaleWidth = 1.f;
+    CGFloat scaleHeight = 1.f;
+    if (imageSize.height > kWQScreenHeight) {
+        scaleHeight = compressFraction*kWQScreenHeight/imageSize.height;
+    }
+    if (imageSize.width*compressFraction > kWQScreenWidth) {
+        scaleWidth = compressFraction*kWQScreenWidth/imageSize.width;
+    }
+    compressFraction = scaleWidth > scaleHeight ? scaleWidth : scaleHeight;
+    newHeight = (imageSize.height)*compressFraction;
+    newWidth = (imageSize.width)*compressFraction;
+    CGSize newSize = CGSizeMake(ceil(newWidth), ceil(newHeight));
+    // 创建图片上下文
+    UIGraphicsBeginImageContext(newSize);
+    // 根据新大小重新绘制图片
+    [newImg drawInRect:CGRectMake(0,0,newSize.width,newSize.height)];
+    //
+    UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
+    // End the context
+    UIGraphicsEndImageContext();
+    return newImage;
 }
 
 @end

@@ -34,4 +34,13 @@
  @return     缩略图
  */
 - (UIImage *)thumbnailWithImageWithNewSize:(CGSize)size;
+
+/**
+ 压缩图片
+ 
+ @param qualityRatio    质量比例
+ @return                压缩后的图片
+ */
+- (UIImage *)compressedImageWithQualityRatio:(CGFloat)qualityRatio;
+
 @end
