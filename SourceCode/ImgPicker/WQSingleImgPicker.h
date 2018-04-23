@@ -46,4 +46,21 @@ typedef void(^WQPhotoCancelBlock)(void);
                              selected:(WQPhotoSelectedBlock)selectedBlock
                                cancel:(WQPhotoCancelBlock)cancelBlock;
 
+/**
+ 获取照片
+ 
+ @param fromController 跳转的控制器
+ @param sourceTree     选择的Type
+ @param isAllowEdit    是否允许Edit
+ @param isAllowSave    是否允许保存到相册
+ @param selectedBlock  选择照片后的回调
+ @param cancelBlock    取消的回调
+ */
+- (void)selectPhotoWithFromController:(UIViewController *)fromController
+                           sourceType:(UIImagePickerControllerSourceType)sourceTree
+                            allowEdit:(BOOL)isAllowEdit
+                            allowSave:(BOOL)isAllowSave
+                             selected:(WQPhotoSelectedBlock)selectedBlock
+                               cancel:(WQPhotoCancelBlock)cancelBlock;
+
 @end

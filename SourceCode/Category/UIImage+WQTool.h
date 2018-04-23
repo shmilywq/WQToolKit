@@ -27,4 +27,11 @@
  */
 + (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
 
+/**
+ 依据原图的宽高比生成缩略图
+ 
+ @param size 缩略图大小
+ @return     缩略图
+ */
+- (UIImage *)thumbnailWithImageWithNewSize:(CGSize)size;
 @end

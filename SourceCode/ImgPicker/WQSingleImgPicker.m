@@ -17,10 +17,22 @@
 @property (nonatomic, copy) WQPhotoCancelBlock cancelBlock;
 @property (nonatomic, weak) UIViewController *fromController;
 @property (nonatomic, assign) BOOL isAllowEdit;
+@property (nonatomic, assign) BOOL isAllowSave;
 
 @end
 
 @implementation WQSingleImgPicker
+
+- (void)selectPhotoWithFromController:(UIViewController *)fromController
+                           sourceType:(UIImagePickerControllerSourceType)sourceTree
+                            allowEdit:(BOOL)isAllowEdit
+                            allowSave:(BOOL)isAllowSave
+                             selected:(WQPhotoSelectedBlock)selectedBlock
+                               cancel:(WQPhotoCancelBlock)cancelBlock
+{
+    _isAllowSave =  isAllowSave;
+    [self selectPhotoWithFromController:fromController sourceType:sourceTree allowEdit:isAllowEdit selected:selectedBlock cancel:cancelBlock];
+}
 
 - (void)selectPhotoWithFromController:(UIViewController *)fromController sourceType:(UIImagePickerControllerSourceType)sourceTree allowEdit:(BOOL)isAllowEdit selected:(WQPhotoSelectedBlock)selectedBlock cancel:(WQPhotoCancelBlock)cancelBlock
 {
@@ -75,17 +87,19 @@
 #pragma mark - 照片选择完成
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
 {
+    __weak typeof(self) weakSelf = self;
     UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
     if (_isAllowEdit) {
         image =[info objectForKey:UIImagePickerControllerEditedImage];
     }
-    if (picker.sourceType == UIImagePickerControllerSourceTypeCamera) {
+    if (picker.sourceType == UIImagePickerControllerSourceTypeCamera && _isAllowSave) {
         UIImageWriteToSavedPhotosAlbum(image, self, nil, nil);
     }
-    if (image && self.selectedBlock) {
-        self.selectedBlock(image);
-    }
-    [picker dismissViewControllerAnimated:YES completion:nil];
+    [picker dismissViewControllerAnimated:YES completion:^{
+        if (image && weakSelf.selectedBlock) {
+            weakSelf.selectedBlock(image);
+        }
+    }];
 }
 
 // 取消
