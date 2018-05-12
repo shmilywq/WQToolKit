@@ -95,7 +95,8 @@
 /**
  *  计算最大行数文字高度,可以处理计算带行间距的
  */
-- (CGFloat)boundingRectWithSize:(CGSize)size font:(UIFont*)font  lineSpacing:(CGFloat)lineSpacing maxLines:(NSInteger)maxLines{
+- (CGFloat)boundingRectWithSize:(CGSize)size font:(UIFont*)font  lineSpacing:(CGFloat)lineSpacing maxLines:(NSInteger)maxLines
+{
     
     if (maxLines <= 0) {
         return 0;

@@ -34,6 +34,15 @@
  * 计算文字高度，可以处理计算带行间距的
  */
 - (CGSize)sizeWithTextFont:(UIFont *)font constraintSize:(CGSize)size lineSpacing:(CGFloat)lineSpacing;
+/**
+ *  计算最大行数文字高度,可以处理计算带行间距的
+ */
+- (CGFloat)boundingRectWithSize:(CGSize)size font:(UIFont*)font  lineSpacing:(CGFloat)lineSpacing maxLines:(NSInteger)maxLines;
+
+/**
+ *  计算是否超过一行   用于给Label 赋值attribute text的时候 超过一行设置lineSpace
+ */
+- (BOOL)isMoreThanOneLineWithSize:(CGSize)size font:(UIFont *)font lineSpaceing:(CGFloat)lineSpacing;
 
 /**
  判断字符串是否为空, 若为空返回@""
