@@ -21,6 +21,16 @@
 - (CGSize)sizeWithTextFont:(UIFont *)font constraintSize:(CGSize)constraintSize;
 
 /**
+ 字符串转化成富文本
+ 
+ @param lineSpacing 行高
+ @param font 字体
+ @param textColor 字体颜色
+ @return 富文本结果
+ */
+- (NSMutableAttributedString *)attributeStringHaveLineSpacing:(CGFloat)lineSpacing textFont:(UIFont *)font textColor:(UIColor *)textColor;
+
+/**
  * 计算文字高度，可以处理计算带行间距的
  */
 - (CGSize)sizeWithTextFont:(UIFont *)font constraintSize:(CGSize)size lineSpacing:(CGFloat)lineSpacing;

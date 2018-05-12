@@ -42,26 +42,41 @@
     }
     return nil;
 }
+
 /**
- * 计算文字高度，可以处理计算带行间距的
+ 字符串转化成富文本
+
+ @param lineSpacing 行高
+ @param font 字体
+ @param textColor 字体颜色
+ @return 富文本结果
  */
-- (CGSize)sizeWithTextFont:(UIFont *)font constraintSize:(CGSize)size lineSpacing:(CGFloat)lineSpacing
+- (NSMutableAttributedString *)attributeStringHaveLineSpacing:(CGFloat)lineSpacing textFont:(UIFont *)font textColor:(UIColor *)textColor
 {
     NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc] initWithString:self];
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     paragraphStyle.lineSpacing = lineSpacing;
     [attributeString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, self.length)];
     [attributeString addAttribute:NSFontAttributeName value:font range:NSMakeRange(0, self.length)];
+    [attributeString addAttribute:NSForegroundColorAttributeName value:textColor range:NSMakeRange(0, self.length)];
+    return  attributeString;
+}
+
+/**
+ * 计算文字高度，可以处理计算带行间距的
+ */
+- (CGSize)sizeWithTextFont:(UIFont *)font constraintSize:(CGSize)size lineSpacing:(CGFloat)lineSpacing
+{
+    NSMutableAttributedString *attributeString = [self attributeStringHaveLineSpacing:lineSpacing textFont:font textColor:[UIColor blackColor]];
     NSStringDrawingOptions options = NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading;
     CGRect rect = [attributeString boundingRectWithSize:size options:options context:nil];
     
     //文本的高度减去字体高度小于等于行间距，判断为当前只有1行
-    if ((rect.size.height - font.lineHeight) <= paragraphStyle.lineSpacing) {
+    if ((rect.size.height - font.lineHeight) <= lineSpacing) {
         if ([self containChinese:self]) {  //如果包含中文
-            rect = CGRectMake(rect.origin.x, rect.origin.y, rect.size.width, rect.size.height-paragraphStyle.lineSpacing);
+            rect = CGRectMake(rect.origin.x, rect.origin.y, rect.size.width, rect.size.height-lineSpacing);
         }
     }
-    
     return rect.size;
 }
 
